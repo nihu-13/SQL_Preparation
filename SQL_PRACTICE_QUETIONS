@@ -98,7 +98,7 @@ SELECT * from Student WHERE FIRST_NAME NOT IN ('Prem', 'Shivansh');
 SELECT * FROM Student WHERE FIRST_NAME LIKE '%a';
 
 12. Write an SQL query to print details of the Students whose FIRST_NAME ends with ‘a’ and contains six alphabets.
-SELECT * FROM Student WHERE FIRST_NAME LIKE '%_____a';
+SELECT * FROM Student WHERE FIRST_NAME LIKE '_____a';
 
 13. Write an SQL query to print details of the Students whose GPA lies between 9.00 and 9.99.
 SELECT * FROM Student WHERE GPA BETWEEN 9.00 AND 9.99;
